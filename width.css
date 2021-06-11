@@ -1,0 +1,15 @@
+
+.u1-width {
+    max-width:var(--width);
+    margin:auto;
+    box-sizing:content-box;
+    padding-left:var(--gap);
+    padding-right:var(--gap);
+    padding-left:calc(var(--gap) + env(safe-area-inset-left)); /* todo: test */
+    padding-right:calc(var(--gap) + env(safe-area-inset-right));
+}
+/* remove padding on nested width-containers */
+.u1-width .u1-width {
+    padding-left:0;
+    padding-right:0;
+}
