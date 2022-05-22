@@ -12,3 +12,4 @@ This class has a max-width of `var(--width)`.
 
 ## Demo
 https://raw.githack.com/u1ui/width.class/main/tests/test.html  
+
