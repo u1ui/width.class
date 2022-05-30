@@ -1,6 +1,6 @@
 # .u1-width
 
-The **main width** of your design.
+The **main width** of your layout.
 
 This class has a max-width of `var(--width)`.
 
