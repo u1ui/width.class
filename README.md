@@ -1,21 +1,15 @@
 # .u1-width - class
 The main width of your layout
 
-
-The **main width** of your layout.
-
 This class has a max-width of `var(--width)`.
 
-- horizontal centered
-- default paddings left and right of `1rem`
-- padding adds spacing of save area `env(safe-area-inset-left)`
-- nested elements using `.u1-width` have no padding.
-- box-sizing is explicit content-box to define the width without its padding.
+## Features
 
-## Demos
-
-https://raw.githack.com/u1ui/width.class/main/tests/minimal.html  
-https://raw.githack.com/u1ui/width.class/main/tests/test.html
+- Horizontal centered
+- Default paddings left and right of `1rem`
+- Padding adds spacing of save area `env(safe-area-inset-left)`
+- Nested elements using `.u1-width` have no padding.
+- Box-sizing is explicit **content-box** to define the width without its padding.
 
 ## Ussage
 
@@ -32,10 +26,10 @@ https://raw.githack.com/u1ui/width.class/main/tests/test.html
 <link href="https://cdn.jsdelivr.net/gh/u1ui/width.class@3.0.0/width.min.css" rel=stylesheet>
 ```
 
-## Demo
+## Demos
 
-https://raw.githack.com/u1ui/width.class/main/tests/minimal.html  
-https://raw.githack.com/u1ui/width.class/main/tests/test.html  
+[minimal.html](https://raw.githack.com/u1ui/width.class/main/tests/minimal.html)  
+[test.html](https://raw.githack.com/u1ui/width.class/main/tests/test.html)  
 
 ## About
 
