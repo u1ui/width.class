@@ -1,4 +1,6 @@
-# .u1-width
+# .u1-width - class
+The main width of your layout
+
 
 The **main width** of your layout.
 
@@ -11,6 +13,32 @@ This class has a max-width of `var(--width)`.
 - box-sizing is explicit content-box to define the width without its padding.
 
 ## Demos
+
+https://raw.githack.com/u1ui/width.class/main/tests/minimal.html  
+https://raw.githack.com/u1ui/width.class/main/tests/test.html
+
+## Ussage
+
+```html
+<div class="u1-width">
+    content
+    <div class="u1-width">nested (no padding)</div>
+</div>
+```
+
+## Install
+
+```html
+<link href="https://cdn.jsdelivr.net/gh/u1ui/width.class@3.0.0/width.min.css" rel=stylesheet>
+```
+
+## Demo
+
 https://raw.githack.com/u1ui/width.class/main/tests/minimal.html  
 https://raw.githack.com/u1ui/width.class/main/tests/test.html  
+
+## About
+
+- MIT License, Copyright (c) 2022 <u1> (like all repositories in this organization) <br>
+- Suggestions, ideas, finding bugs and making pull requests make us very happy. ♥
 
