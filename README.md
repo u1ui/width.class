@@ -20,6 +20,16 @@ This class has a max-width of `var(--width)`.
 </div>
 ```
 
+```css
+html {
+    --width:20rem;
+}
+.u1-width {
+    outline:1px solid;
+    background-color:yellow;
+}
+```
+
 ## Install
 
 ```html
@@ -28,8 +38,8 @@ This class has a max-width of `var(--width)`.
 
 ## Demos
 
-[minimal.html](https://raw.githack.com/u1ui/width.class/main/tests/minimal.html)  
-[test.html](https://raw.githack.com/u1ui/width.class/main/tests/test.html)  
+[minimal.html](http://gcdn.li/u1ui/width.class@main/tests/minimal.html)  
+[test.html](http://gcdn.li/u1ui/width.class@main/tests/test.html)  
 
 ## About
 
