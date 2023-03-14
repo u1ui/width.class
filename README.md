@@ -14,9 +14,9 @@ This class has a max-width of `var(--width)`.
 ## Ussage
 
 ```html
-<div class="u1-width">
+<div class=u1-width>
     content
-    <div class="u1-width">nested (no padding)</div>
+    <div class=u1-width>nested (no padding)</div>
 </div>
 ```
 
